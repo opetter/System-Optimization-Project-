@@ -1,0 +1,24 @@
+Billy Suds is planning to build another location for their successful chain of car washes:
+“Sudsational Car Wash”. They are wondering how many self-service car wash bays to build. Consider the
+following:
+ Billy expects 80 customers an hour on average, all day (they open for 12 hours),
+every day (365 days a year), at their new location. Assume arrivals are Poisson
+(exponential inter-arrival times).
+ Customers wash their own cars, which takes between 4 to 8 minutes. Assume
+service times are discrete uniform, between 4 to 8 minutes inclusive.
+ The cost of each additional bay is about $10,000 a year in annualized fixed and
+operating costs.
+ Billy knows that customers hate to wait, but think they are ok to wait a bit. So
+assume that for every minute AFTER 10 minutes that the whole process takes
+(including wait time and car wash time), costs $2 per minute per car in loss of
+goodwill.
+Simulate the car wash in Python or Excel. Create a reasonable number of customers and/or replications,
+and justify your choice. Then answer the following in a short report:
+Q1) How many customers and/or replications did you choose? How did you decide on these values?
+Q2) What is the optimal number of car wash bays to build to minimize the total annual cost of the car
+wash queueing system?
+Q3) Make a chart to show your answer to Q2 clearly.
+Next, try to simulate a more realistic system with busy and less busy periods. Suppose that for 3 hours a
+day, the rate of arrivals is 200 customers per hour, and for the other 9 hours a day the arrival rate is only
+40 customers per hour.
+Q4) How does your answer change under these new conditions?
